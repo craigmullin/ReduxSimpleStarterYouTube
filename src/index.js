@@ -61,3 +61,16 @@ class App extends Component {
 }
 // Add this component's generated HTML and add it to the DOM
 ReactDOM.render(<App />, document.querySelector('.container'));
+
+/**
+ * Lesson 33 recap:
+ * Class-based components are used when we need state
+ * Functional components return static jsx - lightweight and fast
+ * 
+ * State: 
+ * Set state inside constructor in class-based component
+ * Whenever state is changed, children automatically re-render
+ * 
+ * React state is component level
+ * Redux state is app level
+ */
